@@ -14,28 +14,28 @@ docker run -dt imagename /bin/bash -we are not enter into the container detach t
 docker run -dt --name <name> <imagename> /bin/bash (to give csutome name)
 
 
-### contianer will create
+contianer will create
 docker create <imagename> 
           or
-### how create container with custom name #####
+how create container with custom name #####
 docker create --name <requiredname> <imagename>
 
 
-#### how to start container#####
+ how to start container#####
 
 docker start <containerid>
           or
 docker start <container name>
 
-#### how to stop container#####
+ how to stop container#####
 docker stop <containerid> 
            or
 docker stop <container name>
 
-## docker kill comeplete terminated 
+ docker kill comeplete terminated 
 docker kill <containername>
 
-#### To login container #####
+To login container #####
 docker exec -it <continername or continerid> /bin/bash
 
 1.if you want to come out from connainer without stop give "ctrl+pq"
